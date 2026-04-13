@@ -1,0 +1,44 @@
+/* Typography */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Colours */
+:root {
+  --primary: #1a4b8c;
+  --secondary: #f4f4f4;
+  --accent: #d9a441;
+}
+
+/* Layout */
+section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Buttons */
+.btn {
+  background: var(--primary);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  color: white;
+  text-align: center;
+}
+
